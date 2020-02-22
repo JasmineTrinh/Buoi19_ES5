@@ -211,7 +211,7 @@ console.log(student2);
 /* For of
    For in */
 
-let mangPeople = ["J","A","S"];
+let mangPeople = ["J","A","S","M","I","N","E"];
 
 for (let item of mangPeople) {
     console.log(item); //lấy các item trong mảng
