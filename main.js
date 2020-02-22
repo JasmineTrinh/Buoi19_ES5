@@ -177,3 +177,46 @@ let obj = {
 let { ten, lop } = obj; //tên của giá trị phải trùng với tên trong obj
 
 console.log(ten, lop);
+
+/* Template Strings */
+
+let getName = name=>{
+    let result = `Hello ${name}`; //Template Strings
+    console.log(result);
+};
+getName("Hoa");
+
+/* Object literals(*) */
+
+let name = "Hoa";
+let age = 20;
+
+let student = {
+    /* name: name,
+       age: age */
+    name,
+    age
+};
+console.log(student);
+
+let propHoTen = "hoTen";
+let propLop = "lop";
+
+let student2 = {
+    [propHoTen]: "Nguyen",
+    [propLop]: "FE37"
+}
+console.log(student2);
+
+/* For of
+   For in */
+
+let mangPeople = ["J","A","S"];
+
+for (let item of mangPeople) {
+    console.log(item); //lấy các item trong mảng
+}
+
+for (let key in mangPeople) {
+    console.log(key); //lấy vị trí item trong mảng
+}
