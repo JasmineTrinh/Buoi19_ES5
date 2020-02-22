@@ -2,7 +2,7 @@ var a = 10;
 var a = 2; //có thể khai báo chèn lên giá trị cũ
 
 
-/* khai báo kiểu ES5 */
+/* khai báo kiểu ES6 */
 
 let b = 2;
 //let b = 3; -> sẽ báo lỗi, muốn gán đè lên chỉ cần viết b = 3;
@@ -64,7 +64,7 @@ var test1 = function () {
     return 5;
 }
 
-/* Arrow function trong ES5 thay thế cho function() */
+/* Arrow function trong ES6 thay thế cho function() */
 
 let hello1 = (name, lop) => { //nếu function chỉ có 1 tham số thì ko cần khai báo trong ()
     console.log("Hello " + name + " lop " + lop);
@@ -89,7 +89,7 @@ let hocVien = {
 };
 hocVien.layThongTinHocVien();
 
-//function ES5
+//function ES6
 let hocVien2 = {
     hoTen: 'TQHoa',
     lop: 'FE37',
