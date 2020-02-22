@@ -1,3 +1,19 @@
+/* Import & Export */
+
+import { tinhTong, tinhHieu } from './test.js'
+
+let tong = tinhTong();
+console.log("Tổng: " + tong);
+
+let hieu = tinhHieu();
+console.log("Hiệu: " + hieu);
+
+/* Import default */
+
+import NhanViennnnnn from './NhanVien.js'
+
+/* ------ */
+
 var a = 10;
 var a = 2; //có thể khai báo chèn lên giá trị cũ
 
@@ -180,7 +196,7 @@ console.log(ten, lop);
 
 /* Template Strings */
 
-let getName = name=>{
+let getName = name => {
     let result = `Hello ${name}`; //Template Strings
     console.log(result);
 };
@@ -211,7 +227,7 @@ console.log(student2);
 /* For of
    For in */
 
-let mangPeople = ["J","A","S","M","I","N","E"];
+let mangPeople = ["J", "A", "S", "M", "I", "N", "E"];
 
 for (let item of mangPeople) {
     console.log(item); //lấy các item trong mảng

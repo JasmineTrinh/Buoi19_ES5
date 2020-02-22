@@ -65,6 +65,8 @@ Tuổi: ${this.age}`);
     }
 }
 
+/* Super(): đại diện */
+
 class Monkeys extends People{
     constructor(_name,_age,_eat){
         super(_name,_age); //đã kế thừa từ People nên ko cần viết lại.
